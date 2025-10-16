@@ -1,17 +1,16 @@
-# Clone the repo
+# Clone the repository
 git clone https://github.com/bnsairam/predict_aqi.py.git
 cd predict_aqi.py
 
-# Create a virtual environment (optional but recommended)
+# Create and activate a virtual environment
 python -m venv venv
-venv\Scripts\activate   # (On Windows)
-# source venv/bin/activate   # (On Mac/Linux)
+venv\Scripts\activate
 
-# Install required packages
+# Install required dependencies
 pip install pandas numpy matplotlib seaborn scikit-learn joblib
 
-# Run the AQI predictor script
+# Run the script
 python predict_aqi.py
 
-# After training, your model will be saved as:
+# ✅ Model will be saved as:
 # aqi_predictor_model.pkl
